@@ -436,33 +436,8 @@ h3 {
 .rightBox .forCricle a {
     margin-left: 0px;
 }
-.titles {
-    justify-content: space-between;
-    margin-top: 70px;
-}
-.titles li {
-    margin-right: 120px;
+table>tr>th {
     font-family: 'Avenir heavy';
     color: #111111;
     font-size: 18px;
 }
-.board {
-    justify-content: flex-start;
-}
-.board span {
-    font-family: 'Avenir heavy';
-    color: #AFAFAF;
-    font-size: 16px;    
-}
-.Date{
-    margin-right: 32px;
-}
-.Order {
-    margin-right: 143px;
-}
-.Name {
-    margin-right: 20px;
-}
-Price
-Quantity
-Total
