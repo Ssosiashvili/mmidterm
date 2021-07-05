@@ -1,0 +1,468 @@
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.mainContainer{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.colum-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.samePosition {
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 15px;
+    border-radius: 12px;    
+}
+
+.blackBg {
+    background-color: #222222;
+    max-width: 17%;
+} 
+.top {
+    align-items: center;
+    margin-top: 44px;
+    justify-content: space-between;
+    margin-bottom: 103px;
+    padding-left: 30px;
+    margin-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 15px;
+    border-radius: 12px;  
+}
+.logo {
+    width: 143px;
+    height: 33px;
+}
+.burger {
+    width: 26px;
+    height: 11px;
+}
+
+.nav-img {
+    margin-right: 15px;
+    width: 24px;
+    height: 24px; 
+}
+nav ul {
+    align-items: center;
+}
+
+nav ul :hover {
+    background-color:#FF2288;
+}
+
+nav ul li a {
+    font-family: 'Avenir LT Pro';
+    color: #FFFFFF;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+nav ul li a span {
+    padding-top: 4px;
+}
+.followers-row {
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: nowrap;
+}
+/* .followers-row :hover {
+    background-color: #FF2288;
+} */
+.followers-row a {
+    font-family: 'Avenir LT Pro';
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.followers-row img {
+    margin-right: 20px; 
+}
+.following {
+    font-size: 12px;
+    font-family: 'Avenir heavy';
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.loadMore a {
+    font-size: 14px;
+    font-family: 'Avenir heavy';
+    color: #FFFFFF;
+}
+.loadMore {
+    margin-top: 5px;
+    padding-bottom: 105px;
+}
+.topLine {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.rightContainer {
+    width: 83%;
+}
+.searchBox {
+    width: 446px;
+    height: 56px;
+    background-color: #F8F8F8;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 25px;
+}
+.searchBox a {
+    color: #111111;
+    font-family: 'Avenir black';
+    font-size: 14px;
+}
+.searchBox a img {
+    height: 24px;
+    width: 24px;
+}
+.inspiration {
+    opacity: 0.5;
+}
+.rightBox {
+    height: 56px;
+    align-items: center;
+    margin-right: 25px;
+}
+.rightBox ul a {
+    margin-left: 30px;
+    font-family: 'Avenir heavy';
+    font-size: 14px;
+    color: #FF2288;
+}
+.rightBox ul {
+    align-items: center;
+    height: 100%
+}
+.rightBox ul a.upload{
+    color: white;
+    height: 100%;
+    background-color: #FF2288;
+    padding-left: 38px;
+    padding-right: 38px;
+    transform: translateY(50%);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 12px;
+}
+.rightBox ul .upload:hover {
+    background-color: black;
+}    
+hr {
+    margin-right: 25px;
+    margin-left:  25px; 
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
+.filters {
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+}
+.insideContainer {
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid aqua; */
+}
+.leftFilter li a {
+    font-family: 'Avenir LT Pro';
+    color: #222222;
+    font-size: 16px;
+}
+.leftFilter li {
+    padding: 17px 18px 17px 18px;
+    border-radius: 12px;
+}
+.leftFilter li a.all {
+    font-family: 'Avenir heavy';
+}
+.leftFilter li:hover {
+    background-color: #F2F2F2;
+}
+.rightFilter a {
+    height: 100%;
+    border-radius: 12px;
+    border-color:  black;
+    border-width: 25%;
+    border-style: solid;
+    align-items: center;
+    padding: 16px 18px 16px 18px;
+}
+.rightFilter {
+    height: 100%;
+    border-radius: 12px;
+    border-color: #D8D8D8;
+    border-width: 1px;
+    border-style: solid;
+    align-items: center;    
+}
+.rightFilter :hover {
+    background-color: #F2F2F2;
+}
+.rightFilter a img {
+    width: 85px;
+    height: 24px;
+}
+.sectionBlock {
+    max-width: 289px;
+}
+.firstSection :hover{
+    background-color: aqua;
+}
+.firstSection {
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.sectionimg {
+    width: 289px;
+    height: 210px;
+}
+.sectionimg1 {
+    width: 289px;
+    height: 210px;
+}
+.sectionimg1 img .firstimg {
+    width: 100%;
+    height: 100%;  
+}
+.sectionimg img {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    font-family: 'Avenir LT Pro';
+    font-size: 18px;
+    color: #222222;
+    margin-top: 16px;
+}
+.relative1 {
+    position: relative;
+}
+.absolute1 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 12px;
+}
+.absolute2 {
+    position: absolute;
+    top: 59px;
+    left: 15px;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 12px;
+}
+.secondSection {
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.flex {
+    display: flex;
+    width: 100%;
+}
+.more {
+    font-family: 'Avenir heavy';
+    font-size: 16px;
+    margin: 0 auto;
+    width: 289px;
+    color: #222222;
+    background-color: #F2F2F2;
+    padding-left: 105px;
+    padding-right: 103px;
+    transform: translateY(50%);
+    padding-top: 17px;        
+    padding-bottom: 17px;
+    border-radius: 12px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.more:hover {
+    background-color: #FF2288;
+}
+.designersList {
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.designersBox {
+    background-color: #FAFAFA;
+}
+.top-designers {
+    justify-content: space-between;
+    align-items: center;
+
+}
+.top-designers h2 {
+    font-family: 'Avenir heavy';
+    font-size: 32px;
+}
+.top-designers div {
+    font-family: 'Avenir heavy';
+    font-size: 14px;
+    color: #222222;
+    opacity: 0.3;
+}
+.designerBlock {
+    /* border: 1px solid aqua; */
+    align-items: center;    
+}
+.designerImg {
+    width: 132px;
+    height: 132px;
+    margin-bottom: 16px;
+}
+.designerImg img {
+    width: 100%;
+    height: 100%;
+}
+.designerName {
+    font-family: 'Avenir LT Pro';
+    max-width: 72px;
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.adress {
+    font-family: 'Avenir book';
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 16px;
+}
+.followButton {
+    width: 132px;
+    height: 44px;
+    font-family: 'Avenir heavy';
+    font-size: 14px;
+    padding-top: 17px;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    text-align: center;
+}
+.sajon {
+    margin-top: 16px;
+}
+/* .links-container {
+    border: 1px solid aqua;
+} */
+.links-container {
+    justify-content: flex-start;
+    margin-top: 70px;
+}
+
+.links-container div .link-headings {
+    font-family: 'Avenir heavy';
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.links-container div a {
+    color: black;
+    font-family: 'Avenir book';
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.forDesigners {
+    margin-right: 169px;
+}
+.hireDesighners {
+    margin-right: 146px;
+}
+.company {
+    margin-right: 199px;
+}
+.designersBox hr {
+    opacity: 0.5;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    color: black;
+}
+.socialIcons a {
+    margin-right: 20px;
+}
+.endFooter {
+    justify-content: space-between;
+    align-items: center;
+}
+.for {
+    font-family: 'Avenir book';
+    font-size: 16px;
+}
+.smartAcademy {
+    font-family: 'Avenir black';
+    font-size: 16px;
+}
+.forCricle {
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #E7E7E7;
+    border-width: 1px;
+    margin-left: 30px;
+}
+.rightBox ul .forCricle:hover{
+    background-color: #FF2288;
+}
+
+.forCricle img {
+    width: 24px;
+    height: 24px;
+    margin-left: 0px;
+}
+.rightBox .forCricle a {
+    margin-left: 0px;
+}
+.titles {
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.titles li {
+    margin-right: 120px;
+    font-family: 'Avenir heavy';
+    color: #111111;
+    font-size: 18px;
+}
+.board {
+    justify-content: flex-start;
+}
+.board span {
+    font-family: 'Avenir heavy';
+    color: #AFAFAF;
+    font-size: 16px;    
+}
+.Date{
+    margin-right: 32px;
+}
+.Order {
+    margin-right: 143px;
+}
+.Name {
+    margin-right: 20px;
+}
+Price
+Quantity
+Total
