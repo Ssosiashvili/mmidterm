@@ -77,9 +77,6 @@ nav ul li a span {
     margin-bottom: 15px;
     flex-wrap: nowrap;
 }
-/* .followers-row :hover {
-    background-color: #FF2288;
-} */
 .followers-row a {
     font-family: 'Avenir LT Pro';
     color: #FFFFFF;
@@ -179,7 +176,6 @@ hr {
 .insideContainer {
     width: 90%;
     margin: 0 auto;
-    /* border: 1px solid aqua; */
 }
 .leftFilter li a {
     font-family: 'Avenir LT Pro';
@@ -223,9 +219,7 @@ hr {
 .sectionBlock {
     width: 23.47%;
 }
-.firstSection :hover{
-    background-color: aqua;
-}
+
 .firstSection {
     justify-content: space-between;
     margin-top: 40px;
@@ -311,6 +305,7 @@ h3 {
 .top-designers {
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 
 }
 .top-designers h2 {
