@@ -109,6 +109,9 @@ nav ul li a span {
 .rightContainer {
     width: 83%;
 }
+#burger3 {
+    display: none;
+}   
 .searchBox {
     width: 446px;
     height: 56px;
@@ -143,6 +146,9 @@ nav ul li a span {
     font-family: 'Avenir heavy';
     font-size: 14px;
     color: #FF2288;
+}
+.rightBox ul .search2 {
+    display: none;
 }
 .rightBox ul {
     align-items: center;
@@ -319,10 +325,9 @@ h3 {
     opacity: 0.3;
 }
 .designerBlock {
-    /* border: 1px solid aqua; */
     align-items: center;
     width: 9.33%;
-    min-width: 64px;    
+    min-width: 75px;    
 }
 .designerImg {
     width: 100%;
@@ -359,9 +364,7 @@ h3 {
 .sajon {
     margin-top: 16px;
 }
-/* .links-container {
-    border: 1px solid aqua;
-} */
+
 .links-container {
     justify-content: flex-start;
     margin-top: 70px;
@@ -476,31 +479,178 @@ h3 {
 .col-6 {
     flex-basis: 12.55%;
 }
-    
-/* @media all and (max-width: 767px) {
-    .table-header {
+.burger1 {
     display: none;
+}
+
+@media (max-width: 1364px) {
+    .logo {
+        width: 103px;
+        height: 23px;
     }
-    .table-row{
-    
+}  
+@media (max-width: 1300px) {
+    .forDesigners {
+        margin-right: 6%;
     }
-    li {
-    display: block;
+    .hireDesighners {
+        margin-right: 8%;
     }
-    .col {
-    
-    flex-basis: 100%;
-    
-    } */
-    /* .col {
-    display: flex;
-    padding: 10px 0;
-    before {
-        color: #6C7A89;
-        padding-right: 10px;
-        content: attr(data-label);
-        flex-basis: 50%;
-        text-align: right;
+    .company {
+        margin-right: 8%;
     }
-    } */
-/* } */
+}   
+
+@media (max-width: 1131px) {
+    .samePosition {
+        margin-left: 0px;
+    }
+    .top {
+        padding-left: 5px;   
+    }
+    .logo {
+        width: 103px;
+        height: 23px;
+    }
+    .searchBox {
+        width: 300px;
+    }
+    .hireDesighners {
+        margin-right: 6%;
+    }
+    .company {
+        margin-right: 6%;
+    }
+}
+@media (max-width: 1100px) {
+    .Typography {
+        display: none;
+    }
+}    
+@media (max-width: 957px) {
+    .searchBox {
+        width: 30px;
+        background-color: #FFFFFF;
+    }
+    .Illustration {
+        display: none;
+    }
+    .inspiration {
+        display: none;
+    }
+    .samePosition {
+        padding: 5px;
+    }
+    .hireDesighners {
+        margin-right: 3%;
+    }
+    .company {
+        margin-right: 3%;
+    }
+}
+@media (max-width: 890px) {
+    .Animation {
+        display: none;
+    }
+    .Directories {
+        display: none;
+    }
+    .forDesigners {
+        margin-right: 6%;
+    }
+    .hireDesighners {
+        margin-right: 8%;
+    }
+    .company {
+        margin-right: 8%;
+    }
+    .Dmitry {
+        display: none;
+    }
+    .Ryan {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .blackBg{
+        display: none;
+    }
+    .rightContainer {
+        width: 100%;
+    }
+    .burger1 {
+        display: block;
+        margin-right: 30px;
+    }
+    .searchBox {
+        padding:0px
+    }
+    .rightBox ul .search2 {
+        display: inline-block;
+    }
+    .search {
+        display: none;
+    }
+
+}
+@media (max-width: 613px) {
+    .upload {
+        display: none;
+    }
+    .links-container .company {
+        display: none;
+    }
+    .forDesigners {
+        margin-right: 20%;
+    }
+    .David {
+        display: none;
+    }
+}
+@media (max-width: 539px) {
+    .sectionBlock {
+        width: 100%;
+    }
+    .gopro {
+        display: none;
+    }
+    .Web {
+        display: none;
+    }    
+    .D3 {
+        display: none;
+    }  
+    .App {
+        display: none;
+    }
+    .Tran {
+        display: none;
+    }
+    .Zhenya {
+        display: none;
+    }
+    .David {
+        display: inline-block;
+    }
+    .hireDesighners {
+        display: none;
+    }
+    .secondSection {
+        display: none;
+    }
+    .col-1 {
+        display: none;
+    }
+    .col-3 {
+        display: none;
+    }
+    .col-4 {
+        display: none;
+    }
+    .col-5 {
+        flex-basis: 4.36%;
+    }
+    .col-6 {
+        flex-basis: 30.55%;
+    }
+}
